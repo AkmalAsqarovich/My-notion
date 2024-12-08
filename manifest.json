@@ -1,18 +1,16 @@
 {
-    "author":"Akmal Abduraimov Asqar o'g'li",
-    "location":"Uzbekistan Jizzax Zarbdor",
-    "social":"akmal___abduraimov instagram",
-    "manifest_version": 1,
-    "name": "My Note Extension",
-    "version": "1.0",
-    "description": "An extension to manage notes.",
-    "permissions": ["storage", "activeTab", "clipboardRead"],
-    "background": {
+  "author": "Akmal Abduraimov Asqar o'g'li",
+  "location": "Uzbekistan Jizzax Zarbdor",
+  "social": "akmal___abduraimov instagram",
+  "manifest_version": 3,
+  "name": "My Note Extension",
+  "version": "1.0",
+  "description": "An extension to manage notes.",
+  "permissions": ["storage", "activeTab", "clipboardRead"],
+  "background": {
       "service_worker": "background.js"
-    },
-    "action": {
+  },
+  "action": {
       "default_popup": "popup.html"
-    },
-    
-  }
-  
+    }
+}
