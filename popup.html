@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notion</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="app">
+        <textarea id="note-input" placeholder="Qaydlarni shu yerga kiriting"></textarea>
+        <input type="file" id="image-input" accept="image/*" />
+        <button id="save-btn" class="button-55">Saqlash</button>
+        <button id="show-notes-btn" class="button-55">Qaydlarni ko'rish</button>
+        <div id="action-buttons">
+            <button id="export-btn" class="button-55">Export</button>
+            <button id="import-btn" class="button-55">Import</button>
+            <button id="delete-all-btn" class="button-55">Delete All</button>
+        </div>
+        <div id="notes-list"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
