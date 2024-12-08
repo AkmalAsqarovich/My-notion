@@ -6,7 +6,7 @@
   "name": "My Note Extension",
   "version": "1.0",
   "description": "An extension to manage notes.",
-  "permissions": ["storage", "activeTab", "clipboardRead"],
+  "permissions": ["storage", "activeTab", "clipboardRead","import","export"],
   "background": {
       "service_worker": "background.js"
   },
